@@ -98,3 +98,13 @@ Remember: `Cmd + Shift + p` opens package control
 * **Cucumber Step Finder**: Gives you step jump/searching
     - `Cmd + y`: Search all associated step definitions
     - `Cmd + Ctrl + m`: Jump to matching step definition
+
+Rails Specific
+---------------------------------------
+Add this to your Gemfile:
+
+    group :test do
+        gem 'cucumber-rails'
+        gem 'database_cleaner'
+        gem 'capybara' #clicks things and such
+    end
