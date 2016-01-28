@@ -108,4 +108,5 @@ Add this to your Gemfile:
         gem 'cucumber-rails'
         gem 'database_cleaner'
         gem 'capybara' #clicks things and such
+        gem 'capybara-webkit' #optional, used for page response data. QT5 is a dependency, look here for install instructions: http://stackoverflow.com/questions/17075380/can-i-use-homebrews-qt5-with-capybara-webkit
     end
