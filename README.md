@@ -89,6 +89,7 @@ the `--tag` command: `cucumber --tags @tag_name`
   want to run `@wip` tasks, run `cucumber --tags @wip`
 * `@allow-rescue`: Turns off Cucumber’s exception capturing for the tagged
   scenario(s). Used when the code being tested is expected to raise exceptions.
+* `@webkit`: If you need to get response headers you will need to use this(also need to gem install capybara-webkit and brew install qt5)
 
 Useful Sublime Packages
 ---------------------------------------
